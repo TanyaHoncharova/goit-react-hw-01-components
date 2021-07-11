@@ -1,0 +1,41 @@
+.friends {
+  margin-left: 30%;
+  /* margin-right: auto; */
+}
+
+.item {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  border: 1px solid rgba(235, 233, 233, 0.281);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.status {
+  display: flex;
+  align-self: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.onLine {
+  composes: status;
+  background-color: rgb(4, 156, 4);
+}
+
+.ofLine {
+  composes: status;
+  background-color: rgb(219, 25, 41);
+}
+.avatar {
+  width: 75px;
+  border-radius: 5%;
+}
+
+.name {
+  color: rgb(14, 13, 13);
+  font: 24px;
+}
